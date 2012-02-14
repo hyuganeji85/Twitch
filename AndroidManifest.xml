@@ -24,13 +24,16 @@
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
         </receiver>
-        <receiver android:name=".WidgetFullProvider" android:label="T Switch (Full)">
+        <receiver android:name=".WidgetProviderFull" android:label="T Switch (Full)">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
                 <action android:name="mk.t.android.MOBILE_CONNECTIVITY_CHANGED"/>
+                <action android:name="android.intent.action.SYNC_STATE_CHANGED" />
+                <action android:name="com.android.sync.SYNC_CONN_STATUS_CHANGED" />
             </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info_full" />
         </receiver>
         <service android:name=".WifiService"/>
         <service android:name=".MobileService"/>
