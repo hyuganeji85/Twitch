@@ -19,8 +19,8 @@ public class WifiService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        WifiManager wifiManager = ((WifiManager) this.getSystemService(Context.WIFI_SERVICE));
-        wifiManager.setWifiEnabled(!isWifiEnabled(this));
+        ((WifiManager) this.getSystemService(Context.WIFI_SERVICE))
+                .setWifiEnabled(!isWifiEnabled(this));
     }
 
     public static boolean isWifiEnabled(Context context) {
