@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.RemoteViews;
+import mk.t.android.services.MobileService;
+import mk.t.android.services.WifiService;
 
 /**
  * Created by IntelliJ IDEA.

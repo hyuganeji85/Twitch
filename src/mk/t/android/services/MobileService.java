@@ -1,4 +1,4 @@
-package mk.t.android;
+package mk.t.android.services;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
@@ -13,6 +13,7 @@ import android.preference.PreferenceManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.RemoteViews;
+import mk.t.android.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

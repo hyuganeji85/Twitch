@@ -1,4 +1,4 @@
-package mk.t.android;
+package mk.t.android.services;
 
 import android.app.IntentService;
 import android.content.Intent;

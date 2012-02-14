@@ -8,6 +8,8 @@ import android.net.ConnectivityManager;
 import android.net.wifi.WifiManager;
 import android.preference.PreferenceManager;
 import android.widget.RemoteViews;
+import mk.t.android.services.MobileService;
+import mk.t.android.services.WifiService;
 
 /**
  * Created by IntelliJ IDEA.
