@@ -37,5 +37,8 @@
         </receiver>
         <service android:name=".services.WifiService"/>
         <service android:name=".services.MobileService"/>
+        <service android:name=".services.BluetoothService"/>
+        <service android:name=".services.SyncService"/>
+        <service android:name=".services.LocationService"/>
     </application>
 </manifest>
