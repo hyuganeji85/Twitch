@@ -16,7 +16,7 @@ import android.widget.RemoteViews;
  * Time: 21:04
  * To change this template use File | Settings | File Templates.
  */
-public class WidgetReceiver extends AppWidgetProvider {
+public class WidgetProvider extends AppWidgetProvider {
     @Override
     public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
