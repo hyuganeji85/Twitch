@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:orientation="vertical" android:gravity="center">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:text="Favorite color?"/>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/sampleBlue" android:tag="blue"
+                   android:layout_height="wrap_content" android:src="@drawable/sample_blue"/>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/samplePurple" android:tag="purple"
+                   android:layout_height="wrap_content" android:src="@drawable/sample_purple"/>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/sampleGreen" android:tag="green"
+                   android:layout_height="wrap_content" android:src="@drawable/sample_green"/>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/sampleYellow" android:tag="yellow"
+                   android:layout_height="wrap_content" android:src="@drawable/sample_yellow"/>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/sampleRed" android:tag="red"
+                   android:layout_height="wrap_content" android:src="@drawable/sample_red"/>
+
+    </LinearLayout>
+</ScrollView>
