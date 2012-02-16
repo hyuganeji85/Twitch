@@ -1,4 +1,4 @@
-package mk.tmarkovski.android.twitch.services;
+package mk.tm.android.twitch.services;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -7,12 +7,12 @@ import android.content.Intent;
  * Created by IntelliJ IDEA.
  * User: tomislav.markovski
  * Date: 2/14/12
- * Time: 2:31 PM
+ * Time: 2:10 PM
  * To change this template use File | Settings | File Templates.
  */
-public class BluetoothService extends IntentService {
-    public BluetoothService() {
-        super("BluetoothService");
+public class SyncService extends IntentService {
+    public SyncService() {
+        super("SyncService");
     }
 
     @Override

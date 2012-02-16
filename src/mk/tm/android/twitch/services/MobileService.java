@@ -1,4 +1,4 @@
-package mk.tmarkovski.android.twitch.services;
+package mk.tm.android.twitch.services;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
@@ -13,7 +13,7 @@ import android.preference.PreferenceManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.RemoteViews;
-import mk.tmarkovski.android.twitch.R;
+import mk.tm.android.twitch.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -28,7 +28,7 @@ import java.util.Calendar;
  * To change this template use File | Settings | File Templates.
  */
 public class MobileService extends IntentService {
-    public static final String MOBILE_CONNECTIVITY_CHANGED = "mk.tmarkovski.android.twitch.MOBILE_CONNECTIVITY_CHANGED";
+    public static final String MOBILE_CONNECTIVITY_CHANGED = "mk.tm.android.twitch.MOBILE_CONNECTIVITY_CHANGED";
 
     public MobileService() {
         super("MobileService");
