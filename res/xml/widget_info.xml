@@ -5,5 +5,5 @@
         android:minWidth="40dip"
         android:minHeight="40dip"
         android:initialLayout="@layout/widget_layout"
-        android:configure="mk.t.android.WidgetConfigure">
+        android:configure="mk.tmarkovski.android.twitch.WidgetConfigure">
 </appwidget-provider>

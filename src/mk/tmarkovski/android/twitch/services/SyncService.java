@@ -1,4 +1,4 @@
-package mk.t.android.services;
+package mk.tmarkovski.android.twitch.services;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -7,12 +7,12 @@ import android.content.Intent;
  * Created by IntelliJ IDEA.
  * User: tomislav.markovski
  * Date: 2/14/12
- * Time: 2:37 PM
+ * Time: 2:10 PM
  * To change this template use File | Settings | File Templates.
  */
-public class LocationService extends IntentService {
-    public LocationService() {
-        super("LocationService");
+public class SyncService extends IntentService {
+    public SyncService() {
+        super("SyncService");
     }
 
     @Override

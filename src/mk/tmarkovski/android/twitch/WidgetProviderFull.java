@@ -1,7 +1,6 @@
-package mk.t.android;
+package mk.tmarkovski.android.twitch;
 
 import android.appwidget.AppWidgetProvider;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;

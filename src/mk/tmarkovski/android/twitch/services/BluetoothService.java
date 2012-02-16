@@ -1,4 +1,4 @@
-package mk.t.android.services;
+package mk.tmarkovski.android.twitch.services;
 
 import android.app.IntentService;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package mk.t.android;
+package mk.tmarkovski.android.twitch;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -10,8 +10,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.RemoteViews;
-import mk.t.android.services.MobileService;
-import mk.t.android.services.WifiService;
+import mk.tmarkovski.android.twitch.services.MobileService;
+import mk.tmarkovski.android.twitch.services.WifiService;
 
 /**
  * Created by IntelliJ IDEA.
